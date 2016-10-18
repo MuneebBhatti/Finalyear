@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/section_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Name"
+        android:textSize="22dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Attendence"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#e8dbed"
+        />
+
+    <LinearLayout
+        android:id="@+id/courses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:orientation="vertical"
+        >
+        <ListView
+            android:id="@+id/sectios"
+            android:textSize="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.example.ahmad.AMS"
+        minSdkVersion 11
+        targetSdkVersion 16
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    compile files('C:/Users/Ahmad/AndroidStudioProjects/Finalyear/lib/src/main/java/mail.jar')
+    compile files('C:/Users/Ahmad/AndroidStudioProjects/Finalyear/lib/src/main/java/activation.jar')
+    compile files('C:/Users/Ahmad/AndroidStudioProjects/Finalyear/lib/src/main/java/additionnal.jar')
+}

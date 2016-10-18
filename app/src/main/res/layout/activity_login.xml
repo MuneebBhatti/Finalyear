@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/bg"
+    >
+    <Button
+    android:id="@+id/mark_attendence"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Mark Attendence"
+    android:background="@drawable/login_button"
+    android:layout_marginBottom="10dp"
+    android:textColor="@color/white"
+        />
+    <Button
+    android:id="@+id/view_attendence"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="View Attendence"
+    android:background="@drawable/login_button"
+    android:layout_marginBottom="10dp"
+    android:textColor="@color/white"
+    />
+
+    <Button
+    android:id="@+id/change_pwd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Change Password"
+    android:background="@drawable/login_button"
+    android:layout_marginBottom="10dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
